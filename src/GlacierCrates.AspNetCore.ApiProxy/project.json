@@ -3,13 +3,20 @@
     "title": "ApiProxy",
     "copyright": "(c) 2016 ZoolWay",
     "description": "An ASP.NET Core API proxy middleware",
-    "releaseNotes": "Initial release.",
     "version": "1.0.0",
     "authors": [ "ZoolWay" ],
-    "owners": [ "ZoolWay" ],
     "projectUrl": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy",
-    "licenseUrl": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy/blob/master/LICENSE",
-    "tags": ["aspnetcore", "api", "proxy", "middleware"],
+    "packOptions": {
+        "owners": [ "ZoolWay" ],
+        "releaseNotes": "Initial release.",
+        "tags": [ "aspnetcore", "api", "proxy", "middleware" ],
+        "requireLicenseAcceptance": false,
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy.git"
+        },
+        "licenseUrl": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy/blob/master/LICENSE"
+    },
 
     "dependencies": {
         "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
