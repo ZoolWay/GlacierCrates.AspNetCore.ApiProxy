@@ -2,7 +2,7 @@
     "title": "ApiProxy",
     "copyright": "(c) 2016 ZoolWay",
     "description": "ASP.NET Core ApiProxy",
-    "version": "0.1.0-alpha-1",
+    "version": "1.0.0",
 
     "dependencies": {
         "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
