@@ -5,6 +5,20 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GlacierCrates.AspNetCore.ApiProxy", "src\GlacierCrates.AspNetCore.ApiProxy\GlacierCrates.AspNetCore.ApiProxy.xproj", "{E2887ACF-F566-4FF0-8BE2-E1CEF1478CCC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{6D483682-4C44-4672-935A-F7669AF1FC3E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GlacierCrates.AspnetCore.ApiProxy.Test", "test\GlacierCrates.AspnetCore.ApiProxy.Test\GlacierCrates.AspnetCore.ApiProxy.Test.xproj", "{20D86D7C-BADC-460E-878E-DCEA0A972973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63AA66A3-1A0E-47A8-BCC2-081CAA35C178}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,10 @@ Global
 		{E2887ACF-F566-4FF0-8BE2-E1CEF1478CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2887ACF-F566-4FF0-8BE2-E1CEF1478CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2887ACF-F566-4FF0-8BE2-E1CEF1478CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D86D7C-BADC-460E-878E-DCEA0A972973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D86D7C-BADC-460E-878E-DCEA0A972973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D86D7C-BADC-460E-878E-DCEA0A972973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D86D7C-BADC-460E-878E-DCEA0A972973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
