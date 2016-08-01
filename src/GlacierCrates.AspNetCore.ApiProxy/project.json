@@ -1,8 +1,15 @@
 {
+    "name": "GlacierCrates.AspNetCore.ApiProxy",
     "title": "ApiProxy",
     "copyright": "(c) 2016 ZoolWay",
-    "description": "ASP.NET Core ApiProxy",
+    "description": "An ASP.NET Core API proxy middleware",
+    "releaseNotes": "Initial release.",
     "version": "1.0.0",
+    "authors": [ "ZoolWay" ],
+    "owners": [ "ZoolWay" ],
+    "projectUrl": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy",
+    "licenseUrl": "https://github.com/ZoolWay/GlacierCrates.AspNetCore.ApiProxy/blob/master/LICENSE",
+    "tags": ["aspnetcore", "api", "proxy", "middleware"],
 
     "dependencies": {
         "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
